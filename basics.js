@@ -158,3 +158,20 @@ console.log(sortArr(1,4,3,5));
 
  const {userName}=destructObj;
  console.log(userName);
+
+ /**
+  * Reference and Primitive types
+  */
+
+  //strings, numbers, boolean are all primitive types
+  const primType=1;
+  const primTyp1=primType;
+  console.log(primTyp1);
+
+  //objects and arrays are ref types. Points to the object in memory
+
+  const obj2={
+    name:'manju'
+  };
+
+  const obj3=obj2;//same object is referenced here
