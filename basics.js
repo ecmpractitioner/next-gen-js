@@ -156,3 +156,5 @@ console.log(sortArr(1,4,3,5));
     age:37
  };
 
+ const {userName}=destructObj;
+ console.log(userName);
